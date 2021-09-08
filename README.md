@@ -23,11 +23,17 @@ até que o jogador erre, dando fim ao jogo.
 Para solucionarmos o problema da montagem do circuito do projeto usamos os seguintes componentes do Arduino:
 
 • Placa Arduino (1);
+
 • Placa de Ensaio (1);
+
 • LEDs (4);
+
 • Resistências de 330 Ohm (4);
+
 • Resistências de 10 kOhm (4);
+
 • Botões (4);
+
 • Piezobuzzer (1);
 
 A placa Arduino é empregada para rodar o código, os LEDs apresentam as cores da sequência,
@@ -36,7 +42,9 @@ sequência, e o buzzer é responsável por emitir um som correspondente cada vez
 cor ou caso o usúario perca o jogo. O código basicamente é constituido de três estados do jogo:
 
 • Start (Quando o sistema está esperando o jogador iniciar o jogo);
+
 • Play (Quando o jogo está sendo jogado);
+
 • GameOver (Quando o jogador perde o jogo);
 
 O estado Start, consiste na função esperarIniciar, que irá esperar o usuário apertar um botão qualquer para começar o jogo. Dentro do estado Play temos as funções mostrarSequencia e lerSequencia, que mostrará para o jogador a sequência de cores geradas e lerá a sua resposta,
