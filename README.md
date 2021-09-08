@@ -21,6 +21,7 @@ até que o jogador erre, dando fim ao jogo.
 3) Solução do Problema
 
 Para solucionarmos o problema da montagem do circuito do projeto usamos os seguintes componentes do Arduino:
+
 • Placa Arduino (1);
 • Placa de Ensaio (1);
 • LEDs (4);
@@ -33,6 +34,7 @@ A placa Arduino é empregada para rodar o código, os LEDs apresentam as cores d
 os botões são utilizados para receber a resposta do jogador quando ele estiver reproduzindo a
 sequência, e o buzzer é responsável por emitir um som correspondente cada vez que aparecer uma
 cor ou caso o usúario perca o jogo. O código basicamente é constituido de três estados do jogo:
+
 • Start (Quando o sistema está esperando o jogador iniciar o jogo);
 • Play (Quando o jogo está sendo jogado);
 • GameOver (Quando o jogador perde o jogo);
